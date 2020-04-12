@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: phpunit-doc:en
+    image: laraws/phpunit-doc-en:latest
     container_name: phpunit-nginx
     ports:
       - "8082:80"
